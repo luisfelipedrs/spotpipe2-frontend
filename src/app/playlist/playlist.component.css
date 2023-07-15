@@ -1,0 +1,84 @@
+/* playlist title section */
+
+.title-container {
+    margin: 3px;
+    background-color: rgb(77, 40, 68);
+    border-radius: 5px;
+} 
+
+.top-section-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi {
+    margin: 30px 20px 20px 0px;
+}
+
+.bi-arrow-left-circle {
+    margin-left: 20px;
+}
+
+
+/* playlist section */
+
+.header-container {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    padding: 10px;
+    max-width: 960px;
+    justify-content: space-between;
+    border-radius: 5px;
+    max-height: fit-content;
+}
+
+.music-container {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    padding: 10px;
+    max-width: 960px;
+    justify-content: space-between;
+    border-radius: 5px;
+    max-height: fit-content;
+}
+
+.track-container {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.track-number {
+    color: rgb(167, 166, 166);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.track-album-cover {
+    color: rgb(167, 166, 166);
+    padding-right: 15px;
+}
+
+.cover-img {
+    border-radius: 5px;
+    width: 4vw;
+    height: 4vw;
+}
+
+.track-title {
+    color: rgb(167, 166, 166);
+}
+
+.track-duration {
+    color: rgb(167, 166, 166);
+    padding-right: 20px;
+}
+
+.music-container:hover {
+    background-color: rgb(48, 47, 47);
+    cursor: pointer;
+}
