@@ -1,8 +1,10 @@
 /* playlist title section */
 
+/* top section */
+
 .title-container {
     margin: 3px;
-    background-color: rgb(77, 40, 68);
+    background-color: rebeccapurple;
     border-radius: 5px;
 } 
 
@@ -19,6 +21,39 @@
     margin-left: 20px;
 }
 
+.bi-image {
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 10px 10px;
+}
+
+.bi:hover {
+    fill: white;
+}
+
+.playlist-title h6,
+.playlist-title h1,
+.playlist-title h5 {
+    padding: 0;
+    color: white;
+    margin: 0px;
+    margin-right: 100px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.playlist-title h5 {
+    margin-bottom: 20px;
+}
+
+/* playlist title middle section */
+
+.middle-section-container {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
 
 /* playlist section */
 
