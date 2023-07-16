@@ -1,10 +1,15 @@
-.music-container {
+.header-container {
     background-color: rgb(17, 17, 17);
     display: flex;
     align-items: center;
     padding: 10px;
     justify-content: space-between;
     max-height: fit-content;
+}
+
+.separation-line {
+    background-color: rgb(167, 166, 166);
+    height: 0.1rem;
 }
 
 .track-container {
@@ -37,9 +42,4 @@
 .track-duration {
     color: rgb(167, 166, 166);
     padding-right: 20px;
-}
-
-.music-container:hover {
-    background-color: rgb(48, 47, 47);
-    cursor: pointer;
 }

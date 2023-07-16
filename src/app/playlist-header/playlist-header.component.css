@@ -1,0 +1,85 @@
+.title-container {
+    background-image: linear-gradient(to top, rgb(17, 17, 17), rgb(113, 43, 192));
+    border-radius: 10px 10px 0 0;
+} 
+
+.top-section-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi {
+    margin: 30px 20px 20px 0px;
+}
+
+.bi-arrow-left-circle {
+    margin-left: 20px;
+}
+
+.bi-heart-fill {
+    background-image: linear-gradient(to bottom right, rgb(113, 43, 192), rgb(209, 140, 241));
+    margin-left: 50px;
+    padding: 70px;
+    box-shadow: 5px 5px 10px 10px;
+}
+
+.bi:hover {
+    fill: rgb(160, 159, 159);
+}
+
+.playlist-title h6,
+.playlist-title h1,
+.playlist-title h5 {
+    padding: 0;
+    color: white;
+    margin: 0px;
+    margin-right: 100px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.playlist-title h5 {
+    margin-bottom: 20px;
+}
+
+.playlist-title h1 {
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+
+.middle-section-container {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+
+.bi-play-circle-fill {
+    fill: rgb(6, 224, 6);
+    margin: 10px 0 20px 40px;
+}
+
+.bi-arrow-down-circle {
+    margin: 30px 0 40px 40px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-container h6 {
+    margin-top: 20px;
+    color: rgb(160, 159, 159);
+}
+
+.bi-caret-down-fill {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

@@ -1,0 +1,13 @@
+.library-menu {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(160, 159, 159);
+    margin-top: 5px;
+}
+
+.title-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
