@@ -9,6 +9,7 @@ import { HeaderPlaylistDivisionComponent } from './header-playlist-division/head
 import { UserSectionComponent } from './user-section/user-section.component';
 import { LibraryComponent } from './library/library.component';
 import { LibraryListComponent } from './library-list/library-list.component';
+import { FriendsListComponent } from './friends-list/friends-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LibraryListComponent } from './library-list/library-list.component';
     HeaderPlaylistDivisionComponent,
     UserSectionComponent,
     LibraryComponent,
-    LibraryListComponent
+    LibraryListComponent,
+    FriendsListComponent
   ],
   imports: [
     BrowserModule,

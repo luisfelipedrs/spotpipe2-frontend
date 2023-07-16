@@ -1,11 +1,25 @@
+.musics-list {
+    background-color: rgb(17, 17, 17);
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    color: rgb(160, 159, 159);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-sizing: border-box;
+}
+
 .music-container {
     background-color: rgb(17, 17, 17);
     display: flex;
     align-items: center;
     padding: 10px;
     justify-content: space-between;
-    max-height: fit-content;
     color: rgb(160, 159, 159);
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .track-container {
@@ -17,10 +31,12 @@
 .track-number {
     padding-right: 20px;
     padding-left: 20px;
+    box-sizing: border-box;
 }
 
 .track-album-cover {
     padding-right: 15px;
+    box-sizing: border-box;
 }
 
 .cover-img {
@@ -31,4 +47,5 @@
 
 .track-duration {
     padding-right: 50px;
+    box-sizing: border-box;
 }
