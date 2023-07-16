@@ -6,8 +6,51 @@
     margin-top: 5px;
 }
 
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .title-container {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.bi-arrow-right {
+    margin-left: 20px;
+}
+
+.lists-section {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.lists-section h6 {
+    color: white;
+    padding: 8px 15px 8px 15px;
+    background: rgb(29, 29, 29);
+    border-radius: 25px;
+}
+
+.lists-section h6:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+.search-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.bi-caret-down-fill {
+    margin-bottom: 5px;
 }
