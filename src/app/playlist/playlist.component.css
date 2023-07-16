@@ -5,6 +5,7 @@
     padding: 10px;
     justify-content: space-between;
     max-height: fit-content;
+    color: rgb(160, 159, 159);
 }
 
 .track-container {
@@ -14,13 +15,11 @@
 }
 
 .track-number {
-    color: rgb(167, 166, 166);
     padding-right: 20px;
     padding-left: 20px;
 }
 
 .track-album-cover {
-    color: rgb(167, 166, 166);
     padding-right: 15px;
 }
 
@@ -30,16 +29,6 @@
     height: 4vw;
 }
 
-.track-title {
-    color: rgb(167, 166, 166);
-}
-
 .track-duration {
-    color: rgb(167, 166, 166);
-    padding-right: 20px;
-}
-
-.music-container:hover {
-    background-color: rgb(48, 47, 47);
-    cursor: pointer;
+    padding-right: 50px;
 }

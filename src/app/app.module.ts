@@ -8,6 +8,7 @@ import { PlaylistHeaderComponent } from './playlist-header/playlist-header.compo
 import { HeaderPlaylistDivisionComponent } from './header-playlist-division/header-playlist-division.component';
 import { UserSectionComponent } from './user-section/user-section.component';
 import { LibraryComponent } from './library/library.component';
+import { LibraryListComponent } from './library-list/library-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LibraryComponent } from './library/library.component';
     PlaylistHeaderComponent,
     HeaderPlaylistDivisionComponent,
     UserSectionComponent,
-    LibraryComponent
+    LibraryComponent,
+    LibraryListComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,13 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-.hoverable:hover {
+.hoverable-background:hover {
     color: white;
+    background-color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+.hoverable:hover {
     fill: white;
+    color: white;
+    cursor: pointer;
 }

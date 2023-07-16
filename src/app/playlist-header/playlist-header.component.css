@@ -23,10 +23,6 @@
     box-shadow: 5px 5px 10px 10px;
 }
 
-.bi:hover {
-    fill: white;
-}
-
 .playlist-title h6,
 .playlist-title h1,
 .playlist-title h5 {
@@ -67,19 +63,25 @@
     justify-content: space-between;
 }
 
-.search-container {
+.search-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 20px;
-}
-
-.search-container h6 {
-    margin-top: 20px;
     color: rgb(160, 159, 159);
 }
 
+.text-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-section h6 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .bi-caret-down-fill {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-left: 20px;
 }

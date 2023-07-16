@@ -1,5 +1,5 @@
 .library-menu {
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     padding: 20px;
     background-color: rgb(17, 17, 17);
     color: rgb(160, 159, 159);
@@ -37,6 +37,7 @@
 
 .lists-section h6:hover {
     background-color: rgb(53, 53, 53);
+    cursor: pointer;
 }
 
 .search-section {

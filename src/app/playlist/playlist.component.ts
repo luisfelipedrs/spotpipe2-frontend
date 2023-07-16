@@ -4,7 +4,7 @@ import { Music } from 'src/music';
 @Component({
   selector: 'app-playlist',
   templateUrl: './playlist.component.html',
-  styleUrls: ['./playlist.component.css']
+  styleUrls: ['./playlist.component.css', '../../styles.css', '../../styles.css']
 })
 export class PlaylistComponent {
   
@@ -39,6 +39,48 @@ export class PlaylistComponent {
       artist: 'TxT',
       duration: '3:06'
     },
+    {
+      title: 'Knock',
+      artist: 'Lee Chaeyeon',
+      duration: '2:53'
+    }
+    ,
+    {
+      title: 'Knock',
+      artist: 'Lee Chaeyeon',
+      duration: '2:53'
+    }
+    ,
+    {
+      title: 'Knock',
+      artist: 'Lee Chaeyeon',
+      duration: '2:53'
+    }
+    ,
+    {
+      title: 'Knock',
+      artist: 'Lee Chaeyeon',
+      duration: '2:53'
+    }
+    ,
+    {
+      title: 'Knock',
+      artist: 'Lee Chaeyeon',
+      duration: '2:53'
+    }
+    ,
+    {
+      title: 'Knock',
+      artist: 'Lee Chaeyeon',
+      duration: '2:53'
+    }
+    ,
+    {
+      title: 'Knock',
+      artist: 'Lee Chaeyeon',
+      duration: '2:53'
+    }
+    ,
     {
       title: 'Knock',
       artist: 'Lee Chaeyeon',
